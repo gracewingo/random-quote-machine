@@ -1,0 +1,38 @@
+body {
+    margin: 150px;
+    background-color: grey;
+    font-weight: 500;
+}
+
+#new-quote, #tweet-quote {
+    cursor: pointer;
+}
+
+#text {
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+#quote-box{
+   text-align: center;
+}
+
+.button {
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid teal;
+    box-shadow: 10px 10px 43px -15px rgba(0,0,0,0.75);
+}
+
+.button:hover{
+    background-color: rgb(6, 189, 189);
+    border: 1px solid rgb(2, 172, 172);
+
+}
+.what {
+    color:blue;
+}
