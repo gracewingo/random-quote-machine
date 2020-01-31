@@ -27,7 +27,7 @@ class App extends Component {
     }
     this.getRandomQuote = this.getRandomQuote.bind(this);
   }
-  //try this way first, then try making new quote it's own component 
+
   getRandomQuote(){
     let randomIndex = Math.floor(Math.random() * this.state.quotes.length);
     this.setState(function(prevState){
@@ -44,7 +44,7 @@ class App extends Component {
   }
 
   render(){
-      //
+      
     return (
       <div id ="quote-box">
         <div id="text">{this.state.randomQuote}</div>
